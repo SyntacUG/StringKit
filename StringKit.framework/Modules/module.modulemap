@@ -1,0 +1,10 @@
+framework module StringKit {
+  umbrella header "StringKit.h"
+
+  export *
+  module * { export * }
+}
+
+module StringKit.Swift {
+    header "StringKit-Swift.h"
+}
