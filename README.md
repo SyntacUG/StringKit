@@ -5,6 +5,7 @@ StringKit is a new, simple and fast way to investigate and modificate strings in
 n/a
 
 ## Usage
-```
+```swift
 import StringKit
+
 ´´´
