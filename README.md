@@ -2,7 +2,9 @@
 StringKit is a new, simple and fast way to investigate and modify strings in Swift - The next level of string manipulation.
 
 ## Installation
-n/a
+1. Download the dynamic framework.
+2. Add the framework file to the embedded binaries section.
+3. That's it. :]
 
 ## Import
 ```swift
@@ -17,7 +19,7 @@ StringKit provides a documenation, so you have fast access to the entire bunch o
 String.stringKitDocumentation(option: SKStringDocumentationOption)
 ```
 
-Categories:
+#### Categories:
 ```swift
 public enum SKStringDocumentationOption
 {
