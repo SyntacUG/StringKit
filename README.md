@@ -7,5 +7,3 @@ n/a
 ## Usage
 ```swift
 import StringKit
-
-´´´
