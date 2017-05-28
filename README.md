@@ -9,7 +9,7 @@
 StringKit is a new, simple and fast way to investigate and modify strings in Swift - The next level of string manipulation.
 
 ## Installation
-1. Download the dynamic framework.
+1. Download the ZIP-Archive.
 2. Add the framework file to the embedded binaries section.
 3. That's it. :]
 
