@@ -3,8 +3,8 @@
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat)](/LICENSE.md)
 [![Dynamic_Framework](https://img.shields.io/badge/Dynamic_Framework-support-brightgreen.svg?style=flat)](#installation)
-[![Cocoa_Pods](https://img.shields.io/badge/Cocoa_Pods-currently_not_supported-red.svg?style=flat)](#Installation)
-[![Carthage](https://img.shields.io/badge/Carthage-currently_not_supported-red.svg?style=flat)](#Installation)
+[![Cocoa_Pods](https://img.shields.io/badge/Cocoa_Pods-currently_not_supported-red.svg?style=flat)](#installation)
+[![Carthage](https://img.shields.io/badge/Carthage-currently_not_supported-red.svg?style=flat)](#installation)
 
 StringKit is a new, simple and fast way to investigate and modify strings in Swift - The next level of string manipulation.
 
