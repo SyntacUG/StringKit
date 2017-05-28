@@ -2,7 +2,7 @@
 [![Status](https://img.shields.io/badge/Status-unstable-orange.svg?style=flat)](#StringKit-0.0.1)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat)](/LICENSE.md)
-[![Dynamic_Framework](https://img.shields.io/badge/Dynamic_Framework-support-brightgreen.svg?style=flat)](#Installation)
+[![Dynamic_Framework](https://img.shields.io/badge/Dynamic_Framework-support-brightgreen.svg?style=flat)](#installation)
 [![Cocoa_Pods](https://img.shields.io/badge/Cocoa_Pods-currently_not_supported-red.svg?style=flat)](#Installation)
 [![Carthage](https://img.shields.io/badge/Carthage-currently_not_supported-red.svg?style=flat)](#Installation)
 
