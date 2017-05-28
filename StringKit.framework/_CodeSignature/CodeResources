@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/StringKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		sMlLo1iZbWKsmDyJ2gByO6L7N+4=
+		d27MYe06yqnBo9PMsbto5pQMLiw=
 		</data>
 		<key>Modules/StringKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		cLpwxkkU71k57hDGIGgxFaC/sUw=
+		dz03RCHzThL2O4wZ0nAsNS7oqF4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,22 +57,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sMlLo1iZbWKsmDyJ2gByO6L7N+4=
+			d27MYe06yqnBo9PMsbto5pQMLiw=
 			</data>
 			<key>hash2</key>
 			<data>
-			AwqDhKyf+XLy4OhMODPHFcxBZF7lb53nhT2vZwVdLE0=
+			nQyEzC07dvY/C9LZBKACH5oBO9uDeFiC/03k6m1B5/4=
 			</data>
 		</dict>
 		<key>Modules/StringKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cLpwxkkU71k57hDGIGgxFaC/sUw=
+			dz03RCHzThL2O4wZ0nAsNS7oqF4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XTVzOdzqVsEa9/2IxESyJyRqiPvQXbvg4HP4cWwJ8dM=
+			bZYCLIKKSguh5K4OKnvmay5n8HeTESFFuDOAuKG5ogo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
