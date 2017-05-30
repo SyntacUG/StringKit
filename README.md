@@ -18,7 +18,7 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 import StringKit
 ```
 
-## Documentation
+## Offline Documentation
 StringKit provides a documenation, so you have fast access to the entire bunch of methods and properties. It is also possible to categorize.
 
 ### Usage
