@@ -1,17 +1,24 @@
 # StringKit
-[![Version 0.1.0](https://img.shields.io/badge/Version_0.1.0-unstable-orange.svg?style=flat)](#StringKit-0.1.0)
+[![Version 0.1.0](https://img.shields.io/badge/Version_0.1.0-unstable-orange.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS-brightgreen.svg?style=flat)](https://swift.org)
+[![Dependencies](https://img.shields.io/badge/Dependencies-0-brightgreen.svg?style=flat)](#StringKit)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat)](/LICENSE.md)
-[![Manually](https://img.shields.io/badge/Manually-supported-brightgreen.svg?style=flat)](#installation)
-[![Cocoa_Pods](https://img.shields.io/badge/Cocoa_Pods-currently_not_supported-red.svg?style=flat)](#installation)
-[![Carthage](https://img.shields.io/badge/Carthage-currently_not_supported-red.svg?style=flat)](#installation)
 
 StringKit is a new, simple and fast way to investigate and modify strings in Swift - The next level of string manipulation.
 
 ## Installation
+### Manual
 1. Download the ZIP-archive.
 2. Add the .framework-file to the embedded binaries section.
 3. That's it. :]
+
+### Package Managers
+[![Cocoa_Pods](https://img.shields.io/badge/Cocoa_Pods-currently_not_supported-red.svg?style=flat)](#installation)
+
+[![Carthage](https://img.shields.io/badge/Carthage-currently_not_supported-red.svg?style=flat)](#installation)
+
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-currently_not_supported-red.svg?style=flat)](#installation)
 
 ## Import
 ```swift
