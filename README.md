@@ -19,7 +19,7 @@ import StringKit
 ```
 
 ## Offline Documentation
-StringKit provides a documenation, so you have fast access to the entire bunch of methods and properties. It is also possible to categorize.
+StringKit provides a documentation, so you have fast access to the entire bunch of methods and properties. It is also possible to categorize.
 
 ### Usage
 ```swift
