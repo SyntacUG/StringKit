@@ -1,5 +1,5 @@
 # StringKit
-[![Version 0.1.0](https://img.shields.io/badge/Version_0.1.0-unstable-orange.svg?style=flat)](#StringKit)
+[![Version 0.2.0](https://img.shields.io/badge/Version_0.2.0-unstable-orange.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS-brightgreen.svg?style=flat)](https://swift.org)
 [![Dependencies](https://img.shields.io/badge/Dependencies-0-brightgreen.svg?style=flat)](#StringKit)
@@ -9,8 +9,8 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 
 ## Installation
 ### Manual
-1. Download the ZIP-archive.
-2. Add the .framework-file to the embedded binaries section.
+1. Download the ZIP archive.
+2. Add the .framework file to the embedded binaries section.
 3. That's it. :]
 
 ### Package Managers
@@ -26,7 +26,7 @@ import StringKit
 ```
 
 ## Offline Documentation
-StringKit provides a documentation, so you have fast access to the entire bunch of methods and properties. It is also possible to categorize.
+StringKit provides an offline documentation, so you have fast access to the entire bunch of methods and properties. It is also possible to categorize.
 
 ### Usage
 ```swift
