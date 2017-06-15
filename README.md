@@ -1,19 +1,24 @@
-# StringKit
-[![Version 0.2.0](https://img.shields.io/badge/Version_0.2.0-unstable-orange.svg?style=flat)](#StringKit)
+![StringKit Logo](Graphics/StringKit.png)
+[![Version 0.3.0](https://img.shields.io/badge/Version_0.3.0-unstable-orange.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
-[![Platforms](https://img.shields.io/badge/Platforms-iOS-brightgreen.svg?style=flat)](https://swift.org)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![Dependencies](https://img.shields.io/badge/Dependencies-0-brightgreen.svg?style=flat)](#StringKit)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat)](/LICENSE.md)
 
 StringKit is a new, simple and fast way to investigate and modify strings in Swift - The next level of string manipulation.
 
-## Installation
-### Manual
+# Installation
+## Requirements
++ iOS 8.0+
++ Xcode 8.1+
++ Swift 3.1+
+
+## Manual
 1. Download the ZIP archive.
 2. Add the .framework file to the embedded binaries section.
 3. That's it. :]
 
-### Package Managers
+## Package Managers
 [![Cocoa_Pods](https://img.shields.io/badge/Cocoa_Pods-currently_not_supported-red.svg?style=flat)](#installation)
 
 [![Carthage](https://img.shields.io/badge/Carthage-currently_not_supported-red.svg?style=flat)](#installation)
@@ -25,15 +30,15 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 import StringKit
 ```
 
-## Offline Documentation
+# Offline Documentation
 StringKit provides an offline documentation, so you have fast access to the entire bunch of methods and properties. It is also possible to categorize.
 
-### Usage
+## Usage
 ```swift
 String.stringKitDocumentation(option: SKStringDocumentationOption)
 ```
 
-#### Categories:
+### Categories:
 ```swift
 public enum SKStringDocumentationOption
 {
