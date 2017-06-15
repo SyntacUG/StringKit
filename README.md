@@ -35,7 +35,7 @@ StringKit provides an offline documentation, so you have fast access to the enti
 
 ## Usage
 ```swift
-String.stringKitDocumentation(option: SKStringDocumentationOption)
+String.documentation(option: SKStringDocumentationOption)
 ```
 
 ### Categories:
