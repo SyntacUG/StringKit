@@ -4,34 +4,38 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/StringKit-Swift.h</key>
+		<key>Headers/StringKit_iOS-Swift.h</key>
 		<data>
 		YjOFRc0CuVQCBOwKMIfA02UQ3n4=
 		</data>
-		<key>Headers/StringKit.h</key>
+		<key>Headers/StringKit_iOS.h</key>
 		<data>
-		zmQmaMf26XvKrK+KyVyWiWqoWaE=
+		OHmozQDycZc+QvTs/rHhr+d5Yg8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bBk1oUJQd4KO2vDqpgNfummUnXA=
+		bljTE6rCGF5KB+gcDID4pv8UESM=
 		</data>
-		<key>Modules/StringKit.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/StringKit_iOS.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		d27MYe06yqnBo9PMsbto5pQMLiw=
+		iI7tjSMhTZjKMraylbvWOi01sNE=
 		</data>
-		<key>Modules/StringKit.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/StringKit_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		UcjlXNXna2zv1J9l0x4ziZIv1Os=
+		iyhzHmc7i7X78ep5KiZPXIbnjAs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		tZe6CtwTOTcScgL8N0N0hZIeilw=
+		+PhK3SxeH3Wz/F/f8kTUgQ2nkRc=
+		</data>
+		<key>SKDocumentation.txt</key>
+		<data>
+		vA0U/rGdfHoQKiNjrrOTE8RPaJM=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/StringKit-Swift.h</key>
+		<key>Headers/StringKit_iOS-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -42,48 +46,59 @@
 			um2DblenFuzq69SSzT/tG1yzjMpBU+qr32AXFsvSyDU=
 			</data>
 		</dict>
-		<key>Headers/StringKit.h</key>
+		<key>Headers/StringKit_iOS.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zmQmaMf26XvKrK+KyVyWiWqoWaE=
+			OHmozQDycZc+QvTs/rHhr+d5Yg8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0fALYjx86USqLDk1SlkwHVqWRNmlbO7zqhFgYdGJ3pQ=
+			4FtG8n9+IHq4aBaKJp5h7yyrfuIBcxYqjSG5QiouMg0=
 			</data>
 		</dict>
-		<key>Modules/StringKit.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/StringKit_iOS.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d27MYe06yqnBo9PMsbto5pQMLiw=
+			iI7tjSMhTZjKMraylbvWOi01sNE=
 			</data>
 			<key>hash2</key>
 			<data>
-			nQyEzC07dvY/C9LZBKACH5oBO9uDeFiC/03k6m1B5/4=
+			9y3AuaeWDqCb+7RcRLjPvJ7ySWz1G01+AoUKuXP28fQ=
 			</data>
 		</dict>
-		<key>Modules/StringKit.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/StringKit_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UcjlXNXna2zv1J9l0x4ziZIv1Os=
+			iyhzHmc7i7X78ep5KiZPXIbnjAs=
 			</data>
 			<key>hash2</key>
 			<data>
-			jsc6ncIZI9MxWmTb5tA/8XNyeflORGSU1kjbZW9YhBM=
+			jwVh5R7CP67OKg0zx2tkrnajEUfKT45YcRs1nSmhRpc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tZe6CtwTOTcScgL8N0N0hZIeilw=
+			+PhK3SxeH3Wz/F/f8kTUgQ2nkRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			cHgoXam53caIn+n0r9qXbcnaIh3eGMPHQm6wdo6Nmgg=
+			y74BH/qW6B9KT6Bztlb7I4cJu0xGG9RKtjzKwSLT33A=
+			</data>
+		</dict>
+		<key>SKDocumentation.txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vA0U/rGdfHoQKiNjrrOTE8RPaJM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RqFJryztUicwlGXKW7apqyUhkeIOqDpcHogiUYlIuhk=
 			</data>
 		</dict>
 	</dict>
