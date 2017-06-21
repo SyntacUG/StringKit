@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bljTE6rCGF5KB+gcDID4pv8UESM=
+		YoQptWWbNpMyi/EixAdb0dEqR+s=
 		</data>
 		<key>Modules/StringKit_iOS.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		4L435GLa+e0dR0kFAymtBdB3JOc=
+		vUVTk0VHJ+Z1rQfUDTrQTwKxtVc=
 		</data>
 		<key>Modules/StringKit_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		7Eel6d59KOfQBi562Jus67tpkfU=
+		SZEuVFSO1E5e5s7bRdny1lkubjI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,22 +61,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4L435GLa+e0dR0kFAymtBdB3JOc=
+			vUVTk0VHJ+Z1rQfUDTrQTwKxtVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			LVAZodpvMMU0PiTPbhTe7rRcpwUlEKm1AiO1SF9fZfg=
+			0mds6BcXHD7lcQWuVPOFNcocUgyx8bhorx164BNRXRs=
 			</data>
 		</dict>
 		<key>Modules/StringKit_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7Eel6d59KOfQBi562Jus67tpkfU=
+			SZEuVFSO1E5e5s7bRdny1lkubjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			yV3BEOONM5+LFY4bdbvRpxyRukanrkefmH4A4CouR0E=
+			f+Cp+OThcwU0CAFue+Azw3vTkOii1uqLlHcWX4o1CXs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
