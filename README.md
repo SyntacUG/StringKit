@@ -18,7 +18,7 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 2. Add the .framework file to the embedded binaries section.
 3. That's it. :]
 
-## Package Managers
+## Dependency Managers
 [![Cocoa_Pods](https://img.shields.io/badge/Cocoa_Pods-currently_not_supported-red.svg?style=flat)](#installation)
 
 [![Carthage](https://img.shields.io/badge/Carthage-currently_not_supported-red.svg?style=flat)](#installation)
@@ -51,8 +51,8 @@ public enum SKStringDocumentationOption
 
 You will get an output in the console inside of the debug area.
 
-## Author
+# Author
 Rainer Niemann, rainerniemann@icloud.com
 
-## License
+# License
 This project is licensed under the MIT License. See the [LICENSE.md](/LICENSE.md) file for details.
