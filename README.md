@@ -1,5 +1,5 @@
 ![StringKit Logo](Graphics/Logo.png)
-[![Version 0.5.0](https://img.shields.io/badge/Version_0.5.0-unstable-orange.svg?style=flat)](#StringKit)
+[![Version 0.6.0](https://img.shields.io/badge/Version_0.6.0-unstable-orange.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![Dependencies](https://img.shields.io/badge/Dependencies-0-brightgreen.svg?style=flat)](#StringKit)
@@ -27,7 +27,7 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 
 ## Import
 ```swift
-import StringKit
+import StringKit_iOS
 ```
 
 # Offline Documentation
@@ -50,6 +50,37 @@ public enum SKStringDocumentationOption
 ```
 
 You will get an output in the console inside of the debug area.
+
+# List of Extensions
+## Investigation
++ **`charactersArray`**
++ **`length`**
++ **`range`**
++ **`lastIndex`**
++ **`hasLetters`**
++ **`hasNumbers`**
++ **`isEmpty`**
++ **`isNumeric`**
++ **`isAlphabetic`**
++ **`isAlphaNumeric`**
++ **`isConsistsOfOneRepeatingCharacter`**
++ **`isPalindrom`**
++ **`isContainingEmoji`**
++ **`isContaining(_ substring: String, caseSensitive: Bool)`**
++ **`isEmail`**
++ **`isValidURL`**
++ **`isValidSchemedURL`**
++ **`isValidHttpURL`**
++ **`isValidHttpsURL`**
++ **`isValidFileURL`**
++ **`firstCharacter`**
++ **`lastCharacter`**
++ **`initials`**
++ **`mostCommonCharacter`**
++ **`lines`**
++ **`isStartingWithSubstring(_ substring: String)`**
+
+n.a.
 
 # Author
 Rainer Niemann, rainerniemann@icloud.com
