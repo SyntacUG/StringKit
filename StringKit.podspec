@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 	s.name             = 'StringKit'
-	s.version          = '0.7.2'
+	s.version          = '0.7.4'
 	s.summary          = 'A short description of StringKit.'
 
 # This description is used to generate tags and improve search results.
