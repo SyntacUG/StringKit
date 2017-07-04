@@ -1,5 +1,5 @@
 ![StringKit Logo](Graphics/Logo.png)
-[![Version 0.6.0](https://img.shields.io/badge/Version_0.6.0-unstable-orange.svg?style=flat)](#StringKit)
+[![Version 0.7.5](https://img.shields.io/badge/Version_0.7.5-unstable-orange.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![Dependencies](https://img.shields.io/badge/Dependencies-0-brightgreen.svg?style=flat)](#StringKit)
@@ -19,15 +19,18 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 3. That's it. :]
 
 ## Dependency Managers
-[![Cocoa_Pods](https://img.shields.io/badge/Cocoa_Pods-currently_not_supported-red.svg?style=flat)](#installation)
+[![CocoaPods](https://img.shields.io/badge/Cocoa_Pods-supported-brightgreen.svg?style=flat)](#installation)
 
 [![Carthage](https://img.shields.io/badge/Carthage-currently_not_supported-red.svg?style=flat)](#installation)
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-currently_not_supported-red.svg?style=flat)](#installation)
 
+### CocoaPods
+Add ```pod 'StringKit', '~> 0.7.5'``` to your Podfile.
+
 ## Import
 ```swift
-import StringKit_iOS
+import StringKit
 ```
 
 # Offline Documentation
@@ -46,6 +49,7 @@ public enum SKStringDocumentationOption
   case investigation
   case modification
   case conversion
+  case creation
 }
 ```
 
