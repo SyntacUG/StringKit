@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 	s.source           = { :git => 'https://github.com/rainerniemann/StringKit.git', :tag => s.version.to_s }
 	# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 	s.ios.deployment_target = '8.0'
-	s.source_files = 'StringKit_iOS.framework/Modules/StringKit_iOS.swiftmodule/x86_64.swiftmodule'
+	s.source_files = 'StringKit_iOS.framework/Modules/StringKit_iOS.swiftmodule/StringExtensions.swift'
 	# s.resource_bundles = {
 	#   'StringKit' => ['StringKit/Assets/*.png']
 	# }
