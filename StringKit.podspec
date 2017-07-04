@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 	s.name             = 'StringKit'
-	s.version          = '0.7.2'
+	s.version          = '0.7.3'
 	s.summary          = 'A short description of StringKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 	s.homepage         = 'https://github.com/rainerniemann/StringKit'
 	s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
 	s.author           = { 'rainerniemann' => 'rainerniemann@icloud.com' }
-	s.source           = { :git => 'https://github.com/rainerniemann/StringKit.git', :tag => s.version }
+	s.source           = { :git => 'https://github.com/rainerniemann/StringKit.git', :tag => s.version.to_s }
 	# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 	s.ios.deployment_target = '9.0'
 	s.vendored_frameworks = 'StringKit.framework'
