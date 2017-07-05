@@ -19,21 +19,29 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 3. That's it. :]
 
 ## Dependency Managers
-[![CocoaPods](https://img.shields.io/badge/Cocoa_Pods-supported-brightgreen.svg?style=flat)](#installation)
+[![CocoaPods](https://img.shields.io/badge/CocoaPods-supported-brightgreen.svg?style=flat)](#installation)
 
-[![Carthage](https://img.shields.io/badge/Carthage-currently_not_supported-red.svg?style=flat)](#installation)
+[![Carthage](https://img.shields.io/badge/Carthage-supported-brightgreen.svg?style=flat)](#installation)
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-currently_not_supported-red.svg?style=flat)](#installation)
 
 ### CocoaPods
 Add ```pod 'StringKit', '~> 0.7.5'``` to your Podfile.
 
+### Carthage
+1. Create a Cartfile in your project directory.
+2. Add ```github "rainerniemann/StringKit" ~> 0.7.5``` to your Cartfile.
+3. Go to your project directory and run ```carthage update --platform iOS``` in your terminal. (for iOS)
+4. Open the output folder with ```open carthage``` and drag and drop the .framework file into your embedded binaries section of your target.
+5. You got it. :]
+
+
 ## Import
 ```swift
 import StringKit
 ```
 
-# Offline Documentation
+# Offline Documentation (still in progress)
 StringKit provides an offline documentation, so you have fast access to the entire bunch of methods and properties. It is also possible to categorize.
 
 ## Usage
@@ -55,7 +63,7 @@ public enum SKStringDocumentationOption
 
 You will get an output in the console inside of the debug area.
 
-# List of Extensions
+# List of Extensions (still in progress)
 ## Investigation
 + **`charactersArray`**
 + **`length`**
@@ -83,8 +91,6 @@ You will get an output in the console inside of the debug area.
 + **`mostCommonCharacter`**
 + **`lines`**
 + **`isStartingWithSubstring(_ substring: String)`**
-
-n.a.
 
 # Author
 Rainer Niemann, rainerniemann@icloud.com
