@@ -1,8 +1,9 @@
 ![StringKit Logo](Graphics/Logo.png)
-[![Version 0.7.5](https://img.shields.io/badge/Version_0.7.5-unstable-orange.svg?style=flat)](#StringKit)
+[![Version 0.7.6](https://img.shields.io/badge/Version_0.7.6-unstable-orange.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
-[![Platforms](https://img.shields.io/badge/Platforms-iOS-brightgreen.svg?style=flat)](https://developer.apple.com)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS|macOS|watchOS|tvOS-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![Dependencies](https://img.shields.io/badge/Dependencies-0-brightgreen.svg?style=flat)](#StringKit)
+[![IDE](https://img.shields.io/badge/IDE-Xcode_8.3.3-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat)](/LICENSE.md)
 
 StringKit is a new, simple and fast way to investigate and modify strings in Swift - The next level of string manipulation.
@@ -26,11 +27,11 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-currently_not_supported-red.svg?style=flat)](#installation)
 
 ### CocoaPods
-Add ```pod 'StringKit', '~> 0.7.5'``` to your Podfile.
+Add ```pod 'StringKit', '~> 0.7.6'``` to your Podfile.
 
 ### Carthage
 1. Create a Cartfile in your project directory.
-2. Add ```github "rainerniemann/StringKit" ~> 0.7.5``` to your Cartfile.
+2. Add ```github "rainerniemann/StringKit" ~> 0.7.6``` to your Cartfile.
 3. Go to your project directory and run ```carthage update --platform iOS``` in your terminal. (for iOS)
 4. Open the output folder with ```open carthage``` and drag and drop the .framework file into your embedded binaries section of your target.
 5. You got it. :]
