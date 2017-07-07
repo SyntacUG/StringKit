@@ -1,5 +1,6 @@
 ![StringKit Logo](Graphics/Logo.png)
-[![Version 0.7.6](https://img.shields.io/badge/Version_0.7.6-unstable-red.svg?style=flat)](#StringKit)
+[![Version](https://img.shields.io/badge/Version-0.7.6-red.svg?style=flat)](#StringKit)
+[![Build](https://img.shields.io/badge/Build-failing-red.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS|macOS|watchOS|tvOS-orange.svg?style=flat)](https://developer.apple.com)
 [![IDE](https://img.shields.io/badge/IDE-Xcode_8.3.3-brightgreen.svg?style=flat)](https://developer.apple.com)
