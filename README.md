@@ -13,7 +13,7 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 
 # Installation
 ## Requirements
-+ iOS 8.0+ | macOS 10.10+ | tvOS 9.0+ | watchOS 2.0+
++ iOS 9.0+ | macOS 10.11+ | tvOS 9.0+ | watchOS 2.0+
 + Xcode 8.1+
 + Swift 3.1+
 
@@ -23,14 +23,16 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 3. That's it. :]
 
 ## Dependency Managers
-[![CocoaPods](https://img.shields.io/badge/CocoaPods-supported-brightgreen.svg?style=flat)](#installation)
+[![CocoaPods](https://img.shields.io/badge/CocoaPods-supported-brightgreen.svg?style=flat)](#cocoapods)
 
-[![Carthage](https://img.shields.io/badge/Carthage-supported-brightgreen.svg?style=flat)](#installation)
+[![Carthage](https://img.shields.io/badge/Carthage-supported-brightgreen.svg?style=flat)](#carthage)
 
-[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-supported-brightgreen.svg?style=flat)](#installation)
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-supported-brightgreen.svg?style=flat)](#swift-package-manager)
 
 ### CocoaPods
-Add ```pod 'StringKit', '~> 0.8.0'``` to your Podfile.
+1. Add ```pod 'StringKit', '~> 0.8.0'``` to your Podfile.
+2. Run ```pod update``` -> StringKit should be installed now.
+3. You are finished! You can work with the new .workspace now. :]
 
 ### Carthage
 1. Create a Cartfile in your project directory.
@@ -39,6 +41,21 @@ Add ```pod 'StringKit', '~> 0.8.0'``` to your Podfile.
 4. Open the output folder with ```open carthage``` and drag and drop the StringKit.swift file into your project.
 5. You are done. :]
 
+### Swift Package Manager
+1. Create a Package.swift file in your project directory.
+2. Add the following or just the dependency to your Package.swift file.
+```swift
+import PackageDescription
+
+let package = Package(name: "YOUR_APPS_NAME", targets: [], dependencies: 
+[
+  .Package(url: "https://github.com/rainerniemann/StringKit.git",
+                 versions: Version(0,8,0) ... Version(0,8,0))
+])
+```
+3. Run ```swift build```
+4. Every time you want to debug the programm, run ```swift build -Xswiftc "-target" -Xswiftc "x86_64-apple-macosx10.11"```
+
 ## Import
 ```swift
 import StringKit
@@ -46,38 +63,78 @@ import StringKit
 
 # List of Extensions (still in progress)
 ## Investigation
-+ **`charactersArray`**
++ **`characterArray`**
 + **`length`**
-+ **`range`**
 + **`lastIndex`**
-+ **`hasLetters`**
-+ **`hasNumbers`**
-+ **`isEmpty`**
 + **`isNumeric`**
 + **`isAlphabetic`**
 + **`isAlphaNumeric`**
-+ **`isConsistsOfOneRepeatingCharacter`**
-+ **`isPalindrom`**
-+ **`isContainingEmoji`**
-+ **`isContaining(_ substring: String, caseSensitive: Bool)`**
-+ **`isEmail`**
-+ **`isValidURL`**
-+ **`isValidSchemedURL`**
-+ **`isValidHttpURL`**
-+ **`isValidHttpsURL`**
-+ **`isValidFileURL`**
++ **`isLowerCase`**
++ **`isUpperCase`**
++ **`isLowerCase`**
++ **`isValidPalindrom`**
++ **`isValidUrl`**
++ **`isValidSchemedUrl`**
++ **`isValidHttpUrl`**
++ **`isValidHttpsUrl`**
++ **`isValidFileUrl`**
++ **`containsNumber`**
++ **`containsLetter`**
++ **`containsPunctuation`**
++ **`containsEmoji`**
++ **`startsWithNumber`**
++ **`startsWithLetter`**
++ **`startsWithPunctuation`**
++ **`startsWithEmoji`**
++ **`startsLowerCase`**
++ **`startsUpperCase`**
++ **`endsWithNumber`**
++ **`endsWithLetter`**
++ **`endsWithPunctuation`**
++ **`endsWithEmoji`**
++ **`endsLowerCase`**
++ **`endsUpperCase`**
 + **`firstCharacter`**
 + **`lastCharacter`**
 + **`initials`**
-+ **`mostCommonCharacter`**
 + **`lines`**
-+ **`isStartingWithSubstring(_ substring: String)`**
++ **`mostCommonCharacter(caseSensitive: Bool = true)`**
++ **`containsRepetitiveCharacter(caseSensitive: Bool = true)`**
++ **`contains(substring: String, caseSensitive: Bool = true)`**
++ **`startsWith(substring: String, caseSensitive: Bool = true)`**
++ **`endsWith(substring: String, caseSensitive: Bool = true)`**
++ **`character(atIndex index: Int, infinite: Bool = false)`**
++ **`characterFromLeft(atIndex index: Int = 0, infinite: Bool = false)`**
++ **`characterFromRight(atIndex index: Int = 0, infinite: Bool = false)`**
++ **`substringFromLeft(toIndex index: Int = 0, infinite: Bool = false)nes`**
++ **`substringFromRight(steps: Int = 0, infinite: Bool = false)`**
++ **`substring(inRange range: CountableRange<Int>, infinite: Bool = false)`**
++ **`substring(inRange range: CountableClosedRange<Int>, infinite: Bool = false)`**
++ **`substrings(ofLength length: Int)`**
++ **`substrings(ofLength length: Int, inRange range: CountableRange<Int>)`** // error
++ **`substrings(ofLength length: Int, inRange range: CountableClosedRange<Int>)`** // error
++ **`count(substring: String, withOverlap overlap: Bool = true, caseSensitive: Bool = true)`**
++ **`indexesOf(substring: String, withOverlap overlapBool: Bool = true, caseSensitive: Bool = true)`**
++ **`between(left: String, right: String, inclusive: Bool = false, closedBlocks: Bool = false)`** // error
++ **`matchesPattern(_ pattern: String)`** //changes in 0.9.0
++ **`subscript(index: Int)`**
++ **`subscript(index: Int, infinite: Bool)`**
++ **`subscript(range: CountableRange<Int>)`**
++ **`subscript(range: CountableClosedRange<Int>)`**
++ **`subscript(range: CountableRange<Int>, infinite: Bool)`**
++ **`subscript(range: CountableClosedRange<Int>, infinite: Bool)`**
 
 ## Modification
+Currently no overview
 
 ## Conversion
+Currently no overview
 
 ## Creation
++ **`init?(ascii: Array<Int>, ignoreNonValidValues: Bool = false)`**
++ **`init?(base64: String)`**
++ **`init(randomOfLength length: Int)`**
++ **`static random(ofLength length: Int)`**
 
 # Author
 Rainer Niemann, rainerniemann@icloud.com
