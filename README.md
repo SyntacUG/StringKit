@@ -106,7 +106,7 @@ import StringKit
 + **`character(atIndex index: Int, infinite: Bool = false)`**
 + **`characterFromLeft(atIndex index: Int = 0, infinite: Bool = false)`**
 + **`characterFromRight(atIndex index: Int = 0, infinite: Bool = false)`**
-+ **`substringFromLeft(toIndex index: Int = 0, infinite: Bool = false)nes`**
++ **`substringFromLeft(toIndex index: Int = 0, infinite: Bool = false)`**
 + **`substringFromRight(steps: Int = 0, infinite: Bool = false)`**
 + **`substring(inRange range: CountableRange<Int>, infinite: Bool = false)`**
 + **`substring(inRange range: CountableClosedRange<Int>, infinite: Bool = false)`**
@@ -116,7 +116,7 @@ import StringKit
 + **`count(substring: String, withOverlap overlap: Bool = true, caseSensitive: Bool = true)`**
 + **`indexesOf(substring: String, withOverlap overlapBool: Bool = true, caseSensitive: Bool = true)`**
 + **`between(left: String, right: String, inclusive: Bool = false, closedBlocks: Bool = false)`** // error
-+ **`matchesPattern(_ pattern: String)`** //changes in 0.9.0
++ **`matchesPattern(_ pattern: String)`** // changes in 0.9.0
 + **`subscript(index: Int)`**
 + **`subscript(index: Int, infinite: Bool)`**
 + **`subscript(range: CountableRange<Int>)`**
@@ -132,7 +132,7 @@ Currently no overview
 
 ## Creation
 + **`init?(ascii: Array<Int>, ignoreNonValidValues: Bool = false)`**
-+ **`init?(base64: String)`**
++ **`init?(base64: String)`** // changes in 0.9.0
 + **`init(randomOfLength length: Int)`**
 + **`static random(ofLength length: Int)`**
 
