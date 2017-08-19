@@ -1,5 +1,5 @@
 ![StringKit Logo](Graphics/Logo.png)
-[![Version](https://img.shields.io/badge/Version-0.8.0-orange.svg?style=flat)](#StringKit)
+[![Version](https://img.shields.io/badge/Version-0.9.0-orange.svg?style=flat)](#StringKit)
 [![Build](https://img.shields.io/badge/Build-passing-orange.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS|macOS|tvOS|watchOS-brightgreen.svg?style=flat)](https://developer.apple.com)
@@ -13,13 +13,13 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 
 # Installation
 ## Requirements
-+ iOS 9.0+ | macOS 10.11+ | tvOS 9.0+ | watchOS 2.0+
++ iOS 8.0+ | macOS 10.10+ | tvOS 9.0+ | watchOS 2.0+ | Linux
 + Xcode 8.1+
 + Swift 3.1+
 
 ## Manual
 1. Download the ZIP archive.
-2. Add StringKit.swift to your project.
+2. Add the ```Source``` folder or the StringKit.framework file to your project.
 3. That's it. :]
 
 ## Dependency Managers
@@ -30,13 +30,13 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-supported-brightgreen.svg?style=flat)](#swift-package-manager)
 
 ### CocoaPods
-1. Add ```pod 'StringKit', '~> 0.8.0'``` to your Podfile.
+1. Add ```pod 'StringKit', '~> 0.9.0'``` to your Podfile.
 2. Run ```pod update``` -> StringKit should be installed now.
-3. You are finished! You can work with the new .workspace now. :]
+3. You are finished! You can work with the new .workspace file now. :]
 
 ### Carthage
 1. Create a Cartfile in your project directory.
-2. Add ```github "rainerniemann/StringKit" ~> 0.8.0``` to your Cartfile.
+2. Add ```github "rainerniemann/StringKit" ~> 0.9.0``` to your Cartfile.
 3. Go to your project directory and run ```carthage update --platform iOS``` in your terminal. (for iOS)
 4. Open the output folder with ```open carthage``` and drag and drop the StringKit.swift file into your project.
 5. You are done. :]
@@ -47,14 +47,14 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 ```swift
 import PackageDescription
 
-let package = Package(name: "YOUR_APPS_NAME", targets: [], dependencies: 
+let package = Package(name: "YOUR_APPLICATIONS_NAME", targets: [], dependencies: 
 [
   .Package(url: "https://github.com/rainerniemann/StringKit.git",
-                 versions: Version(0,8,0) ... Version(0,8,0))
+                 versions: Version(0,9,0) ... Version(0,9,0))
 ])
 ```
-3. Run ```swift build```
-4. Every time you want to debug the programm, run ```swift build -Xswiftc "-target" -Xswiftc "x86_64-apple-macosx10.11"```
+3. Run ```swift build```.
+4. Every time you want to debug the programm, run ```swift build -Xswiftc "-target" -Xswiftc "x86_64-apple-macosx10.11"```.
 
 ## Import
 ```swift
@@ -136,8 +136,9 @@ Currently no overview
 + **`init(randomOfLength length: Int)`**
 + **`static random(ofLength length: Int)`**
 
-# Author
+# Authors
 Rainer Niemann, rainerniemann@icloud.com
+Andreas Niemann, andreasniemann1999@icloud.com
 
 # License
 This project is licensed under the MIT License. See the [LICENSE.md](/LICENSE.md) file for details.
