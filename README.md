@@ -1,8 +1,8 @@
 ![StringKit Logo](Graphics/Logo.png)
 [![Version](https://img.shields.io/badge/Version-0.9.0-orange.svg?style=flat)](#StringKit)
-[![Build](https://img.shields.io/badge/Build-passing-orange.svg?style=flat)](#StringKit)
+[![Build](https://img.shields.io/badge/Build-passing-brightgreen.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
-[![Platforms](https://img.shields.io/badge/Platforms-iOS|macOS|tvOS|watchOS-brightgreen.svg?style=flat)](https://developer.apple.com)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS|macOS|tvOS|watchOS|Linux-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![IDE](https://img.shields.io/badge/IDE-Xcode_8.3.3-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![Dependencies](https://img.shields.io/badge/Dependencies-0-brightgreen.svg?style=flat)](#StringKit)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat)](/LICENSE.md)
@@ -13,13 +13,13 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 
 # Installation
 ## Requirements
-+ iOS 8.0+ | macOS 10.10+ | tvOS 9.0+ | watchOS 2.0+ | Linux
++ **`iOS 8.0+`** **`macOS 10.10+`** | tvOS 9.0+ | watchOS 2.0+ | Linux
 + Xcode 8.1+
 + Swift 3.1+
 
 ## Manual
 1. Download the ZIP archive.
-2. Add the ```Source``` folder or the StringKit.framework file to your project.
+2. Add the `Source` folder or the `StringKit.framework` file to your project.
 3. That's it. :]
 
 ## Dependency Managers
@@ -30,15 +30,15 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-supported-brightgreen.svg?style=flat)](#swift-package-manager)
 
 ### CocoaPods
-1. Add ```pod 'StringKit', '~> 0.9.0'``` to your Podfile.
-2. Run ```pod update``` -> StringKit should be installed now.
+1. Add `pod 'StringKit', '~> 0.9.0'` to your Podfile.
+2. Run `pod update` -> StringKit should be installed now.
 3. You are finished! You can work with the new .workspace file now. :]
 
 ### Carthage
 1. Create a Cartfile in your project directory.
-2. Add ```github "rainerniemann/StringKit" ~> 0.9.0``` to your Cartfile.
-3. Go to your project directory and run ```carthage update --platform iOS``` in your terminal. (for iOS)
-4. Open the output folder with ```open carthage``` and drag and drop the StringKit.swift file into your project.
+2. Add `github "rainerniemann/StringKit" ~> 0.9.0` to your Cartfile.
+3. Go to your project directory and run `carthage update --platform iOS` in your terminal (for iOS).
+4. Open the output folder with `open carthage` and drag and drop the StringKit.swift file into your project.
 5. You are done. :]
 
 ### Swift Package Manager
@@ -125,19 +125,26 @@ import StringKit
 + **`subscript(range: CountableClosedRange<Int>, infinite: Bool)`**
 
 ## Modification
-Currently no overview
+Overview comes with version 1.0
 
 ## Conversion
 Currently no overview
 
 ## Creation
-+ **`init?(ascii: Array<Int>, ignoreNonValidValues: Bool = false)`**
-+ **`init?(base64: String)`** // changes in 0.9.0
-+ **`init(randomOfLength length: Int)`**
-+ **`static random(ofLength length: Int)`**
+| Signature | Example |
+| ---       | ---     |
+| **`static random(ofLength length: Int)`** | `String.random(ofLength: 5) -> "aU7o9"` |
+| **`init(randomOfLength length: Int)`** | `String(randomOfLength: 6) -> "ieR61P"` |
+| **`init?(ascii: Array<Int>, ignoreNonValidValues: Bool = false)`** | `String(ascii: [65, 66, 67]) -> "ABC"` |
+| **`init?(base64: String)`** | `String(base64: "QQ==") -> "A"` |
+
+## Functionality
+| Signature | Example |
+| ---       | ---     |
+| **`copyToPasteboard()`** | `"StringKit".copyToPasteboard()` |
 
 # Authors
-Rainer Niemann, rainerniemann@icloud.com
+Rainer Niemann, rainerniemann@icloud.com<br>
 Andreas Niemann, andreasniemann1999@icloud.com
 
 # License
