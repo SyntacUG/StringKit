@@ -15,7 +15,10 @@ Pod::Spec.new do |spec|
 	spec.watchos.deployment_target	= "2.0"
 
 	spec.source						= { :git => "https://github.com/rainerniemann/StringKit.git", :tag => "0.9.0" }
-	spec.source_files				= "Source/*.swift"
+	spec.source_files				= "Sources/*.swift"
+
+	spec.ios.vendored_frameworks	= "Frameworks/iOS/StringKit.framework"
+
 	spec.requires_arc				= true
 	spec.pod_target_xcconfig		= { "SWIFT_VERSION" => "3.1" }
 end
