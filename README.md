@@ -2,18 +2,16 @@
 [![Version](https://img.shields.io/badge/Version-0.9.0-orange.svg?style=flat)](#StringKit)
 [![Build](https://img.shields.io/badge/Build-passing-brightgreen.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
-[![Platforms](https://img.shields.io/badge/Platforms-iOS|macOS|tvOS|watchOS|Linux-brightgreen.svg?style=flat)](https://developer.apple.com)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS_macOS_tvOS_watchOS-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![IDE](https://img.shields.io/badge/IDE-Xcode_8.3.3-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![Dependencies](https://img.shields.io/badge/Dependencies-0-brightgreen.svg?style=flat)](#StringKit)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat)](/LICENSE.md)
 
 StringKit is a new, simple and fast way to investigate and modify strings in Swift - The next level of string manipulation.
 
-### Warning: This framework is still in development. Accordingly, the stability changes frequently.
-
 # Installation
 ## Requirements
-+ **`iOS 8.0+`** **`macOS 10.10+`** | tvOS 9.0+ | watchOS 2.0+ | Linux
++ iOS 8.0+ macOS 10.10+ | tvOS 9.0+ | watchOS 2.0+
 + Xcode 8.1+
 + Swift 3.1+
 
@@ -32,7 +30,7 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 ### CocoaPods
 1. Add `pod 'StringKit', '~> 0.9.0'` to your Podfile.
 2. Run `pod update` -> StringKit should be installed now.
-3. You are finished! You can work with the new .workspace file now. :]
+3. You are finished! You can work with the new `.workspace` file now. :]
 
 ### Carthage
 1. Create a Cartfile in your project directory.
@@ -53,95 +51,13 @@ let package = Package(name: "YOUR_APPLICATIONS_NAME", targets: [], dependencies:
                  versions: Version(0,9,0) ... Version(0,9,0))
 ])
 ```
-3. Run ```swift build```.
-4. Every time you want to debug the programm, run ```swift build -Xswiftc "-target" -Xswiftc "x86_64-apple-macosx10.11"```.
+3. Run `swift build`.
+4. Every time you want to debug the programm, run `swift build -Xswiftc "-target" -Xswiftc "x86_64-apple-macosx10.10"`.
 
 ## Import
 ```swift
 import StringKit
 ```
-
-# List of Extensions (still in progress)
-## Investigation
-+ **`characterArray`**
-+ **`length`**
-+ **`lastIndex`**
-+ **`isNumeric`**
-+ **`isAlphabetic`**
-+ **`isAlphaNumeric`**
-+ **`isLowerCase`**
-+ **`isUpperCase`**
-+ **`isLowerCase`**
-+ **`isValidPalindrom`**
-+ **`isValidUrl`**
-+ **`isValidSchemedUrl`**
-+ **`isValidHttpUrl`**
-+ **`isValidHttpsUrl`**
-+ **`isValidFileUrl`**
-+ **`containsNumber`**
-+ **`containsLetter`**
-+ **`containsPunctuation`**
-+ **`containsEmoji`**
-+ **`startsWithNumber`**
-+ **`startsWithLetter`**
-+ **`startsWithPunctuation`**
-+ **`startsWithEmoji`**
-+ **`startsLowerCase`**
-+ **`startsUpperCase`**
-+ **`endsWithNumber`**
-+ **`endsWithLetter`**
-+ **`endsWithPunctuation`**
-+ **`endsWithEmoji`**
-+ **`endsLowerCase`**
-+ **`endsUpperCase`**
-+ **`firstCharacter`**
-+ **`lastCharacter`**
-+ **`initials`**
-+ **`lines`**
-+ **`mostCommonCharacter(caseSensitive: Bool = true)`**
-+ **`containsRepetitiveCharacter(caseSensitive: Bool = true)`**
-+ **`contains(substring: String, caseSensitive: Bool = true)`**
-+ **`startsWith(substring: String, caseSensitive: Bool = true)`**
-+ **`endsWith(substring: String, caseSensitive: Bool = true)`**
-+ **`character(atIndex index: Int, infinite: Bool = false)`**
-+ **`characterFromLeft(atIndex index: Int = 0, infinite: Bool = false)`**
-+ **`characterFromRight(atIndex index: Int = 0, infinite: Bool = false)`**
-+ **`substringFromLeft(toIndex index: Int = 0, infinite: Bool = false)`**
-+ **`substringFromRight(steps: Int = 0, infinite: Bool = false)`**
-+ **`substring(inRange range: CountableRange<Int>, infinite: Bool = false)`**
-+ **`substring(inRange range: CountableClosedRange<Int>, infinite: Bool = false)`**
-+ **`substrings(ofLength length: Int)`**
-+ **`substrings(ofLength length: Int, inRange range: CountableRange<Int>)`** // error
-+ **`substrings(ofLength length: Int, inRange range: CountableClosedRange<Int>)`** // error
-+ **`count(substring: String, withOverlap overlap: Bool = true, caseSensitive: Bool = true)`**
-+ **`indexesOf(substring: String, withOverlap overlapBool: Bool = true, caseSensitive: Bool = true)`**
-+ **`between(left: String, right: String, inclusive: Bool = false, closedBlocks: Bool = false)`** // error
-+ **`matchesPattern(_ pattern: String)`** // changes in 0.9.0
-+ **`subscript(index: Int)`**
-+ **`subscript(index: Int, infinite: Bool)`**
-+ **`subscript(range: CountableRange<Int>)`**
-+ **`subscript(range: CountableClosedRange<Int>)`**
-+ **`subscript(range: CountableRange<Int>, infinite: Bool)`**
-+ **`subscript(range: CountableClosedRange<Int>, infinite: Bool)`**
-
-## Modification
-Overview comes with version 1.0
-
-## Conversion
-Currently no overview
-
-## Creation
-| Signature | Example |
-| ---       | ---     |
-| **`static random(ofLength length: Int)`** | `String.random(ofLength: 5) -> "aU7o9"` |
-| **`init(randomOfLength length: Int)`** | `String(randomOfLength: 6) -> "ieR61P"` |
-| **`init?(ascii: Array<Int>, ignoreNonValidValues: Bool = false)`** | `String(ascii: [65, 66, 67]) -> "ABC"` |
-| **`init?(base64: String)`** | `String(base64: "QQ==") -> "A"` |
-
-## Functionality
-| Signature | Example |
-| ---       | ---     |
-| **`copyToPasteboard()`** | `"StringKit".copyToPasteboard()` |
 
 # Authors
 Rainer Niemann, rainerniemann@icloud.com<br>
