@@ -2,7 +2,7 @@
 [![Version](https://img.shields.io/badge/Version-0.9.0-orange.svg?style=flat)](#StringKit)
 [![Build](https://img.shields.io/badge/Build-passing-brightgreen.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
-[![Platforms](https://img.shields.io/badge/Platforms-iOS_macOS_tvOS_watchOS-brightgreen.svg?style=flat)](https://developer.apple.com)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS_macOS_tvOS_watchOS_Linux-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![IDE](https://img.shields.io/badge/IDE-Xcode_8.3.3-brightgreen.svg?style=flat)](https://developer.apple.com)
 [![Dependencies](https://img.shields.io/badge/Dependencies-0-brightgreen.svg?style=flat)](#StringKit)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat)](/LICENSE.md)
@@ -11,7 +11,7 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 
 # Installation
 ## Requirements
-+ iOS 8.0+ macOS 10.10+ | tvOS 9.0+ | watchOS 2.0+
++ iOS 9.0+ macOS 10.11+ | tvOS 9.0+ | watchOS 2.0+
 + Xcode 8.1+
 + Swift 3.1+
 
@@ -52,7 +52,7 @@ let package = Package(name: "YOUR_APPLICATIONS_NAME", targets: [], dependencies:
 ])
 ```
 3. Run `swift build`.
-4. Every time you want to debug the programm, run `swift build -Xswiftc "-target" -Xswiftc "x86_64-apple-macosx10.10"`.
+4. Every time you want to debug the programm, run `swift build -Xswiftc "-target" -Xswiftc "x86_64-apple-macosx10.11"`.
 
 ## Import
 ```swift
