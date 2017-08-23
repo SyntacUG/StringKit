@@ -11,7 +11,7 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 
 # Installation
 ## Requirements
-+ iOS 9.0+ macOS 10.11+ | tvOS 9.0+ | watchOS 2.0+
++ iOS 9.0+ | macOS 10.11+ | tvOS 9.0+ | watchOS 2.0+ | Linux
 + Xcode 8.1+
 + Swift 3.1+
 
