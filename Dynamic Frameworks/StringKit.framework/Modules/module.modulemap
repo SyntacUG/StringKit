@@ -1,3 +1,0 @@
-framework module StringKit {
-    header "StringKit-Swift.h"
-}
