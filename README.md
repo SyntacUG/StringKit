@@ -1,5 +1,5 @@
 ![StringKit Logo](Graphics/Logo.png)
-[![Version](https://img.shields.io/badge/Version-0.9.0-orange.svg?style=flat)](#StringKit)
+[![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg?style=flat)](#StringKit)
 [![Build](https://img.shields.io/badge/Build-passing-brightgreen.svg?style=flat)](#StringKit)
 [![Swift](https://img.shields.io/badge/Swift-3.1-brightgreen.svg?style=flat)](https://swift.org)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS_macOS_tvOS_watchOS_Linux-brightgreen.svg?style=flat)](https://developer.apple.com)
@@ -28,13 +28,13 @@ StringKit is a new, simple and fast way to investigate and modify strings in Swi
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-supported-brightgreen.svg?style=flat)](#swift-package-manager)
 
 ### CocoaPods
-1. Add `pod 'StringKit', '~> 0.9.0'` to your Podfile.
+1. Add `pod 'StringKit', '~> 1.0.0'` to your Podfile.
 2. Run `pod update` -> StringKit should be installed now.
 3. You are finished! You can work with the new `.workspace` file now. :]
 
 ### Carthage
 1. Create a Cartfile in your project directory.
-2. Add `github "rainerniemann/StringKit" ~> 0.9.0` to your Cartfile.
+2. Add `github "rainerniemann/StringKit" ~> 1.0.0` to your Cartfile.
 3. Go to your project directory and run `carthage update --platform iOS` in your terminal (for iOS).
 4. Open the output folder with `open carthage` and drag and drop the StringKit.swift file into your project.
 5. You are done. :]
@@ -48,7 +48,7 @@ import PackageDescription
 let package = Package(name: "YOUR_APPLICATIONS_NAME", targets: [], dependencies: 
 [
   .Package(url: "https://github.com/rainerniemann/StringKit.git",
-                 versions: Version(0,9,0) ... Version(0,9,0))
+                 versions: Version(1,0,0) ... Version(1,0,0))
 ])
 ```
 3. Run `swift build`.
